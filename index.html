@@ -1,0 +1,70 @@
+<head>
+    <title>Aula-2-Formulário</title>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title" >Faça seu cadastro</h1>
+  
+    <form>
+      <div class="box">
+        <label for="name-field">Nome completo</label>
+        <input
+          id="name-field"
+          type="text"
+          placeholder="Digite seu nome completo"
+        />
+  
+        <label for="birth-date-field">Data de Nascimento</label>
+        <input id="birth-date-field" type="date" />
+  
+        <label for="country-field">País*</label>
+        <select id="country-field">
+          <option>Brasil</option>
+          <option>Argentina</option>
+          <option>Portugal</option>
+        </select>
+  
+        <label>Gênero:</label>
+        <input id="genre-field-1" type="radio" name="input-genre" />
+        <label for="genre-field-1">Feminino</label>
+        <input id="genre-field-2" type="radio" name="input-genre" />
+        <label for="genre-field-2">Masculino</label>
+        <input id="genre-field-3" type="radio" name="input-genre" />
+        <label for="genre-field-3">Não declarar</label>
+  
+        <label for="email-field">E-mail</label>
+        <input id="email-field" type="email" placeholder="Digite seu e-mail" />
+  
+        <label for="password-field">Senha</label>
+        <input id="password-field" type="password" placeholder="Crie uma senha" />
+  
+        <label for="confirm-password-field">Confirme sua Senha</label>
+        <input
+          id="confirm-password-field"
+          type="password"
+          placeholder="Confirmar senha"
+        />
+      </div>
+  
+      <input id="eula-field" type="checkbox" />
+      <label for="eula-field"
+        >Aceito os <a target="_blank" href="eula.html">termos e condições</a> e
+        concordo com as
+        <a target="_blank" href="privacy-policies.html"
+          >políticas de privacidade</a
+        >
+        do Hall To code.</label
+      >
+  
+     <p><button>Cadastrar</button></p> 
+    </form>
+    <p>Já tem uma conta no Hall To Code? Entre agora</p>
+  </body>
